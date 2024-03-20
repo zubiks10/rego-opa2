@@ -2,6 +2,7 @@ package jenkins.authz
 
 default allow = false
 
+
 allow {
     input.method == "POST"
     input.path = "/job"
